@@ -2,7 +2,7 @@
 
 A production-ready, role-based software management portal built to facilitate seamless collaboration between clients, employees, and administrators. Features include real-time secure communications, MongoDB GridFS file storage, and a service request pipeline.
 
-**Live Deployment:** [Live Link](https://kunj-tech-agency-management-portal.vercel.app).
+**Live Deployment:** [Live Link](https://kunj-tech-agency-management-portal.vercel.app/).
 
 **GitHub Repository:** [Github Repo](https://github.com/KunjYadav/Kunj-Tech-Agency-management-portal.git).
 
@@ -169,17 +169,30 @@ To securely set up the system, you must create the initial Administrator account
 
 ## 📸 Screenshots
 
-*(Replace the placeholder links below with actual screenshots of your running app)*
-
 ### 1\. Dashboard (Admin View)
+
+<img width="1280" height="616" alt="Image" src="https://github.com/user-attachments/assets/0376703e-3c17-4ae2-b575-e34dd512ff0c" />
 
 ### 2\. Project Details & Secure Communications
 
+<img width="1280" height="618" alt="Image" src="https://github.com/user-attachments/assets/b364b263-96cb-447e-8706-67006511d46a" />
+<img width="1280" height="621" alt="Image" src="https://github.com/user-attachments/assets/6a0526ae-a5e1-4ba2-a0f4-40274ecc471e" />
+<img width="1280" height="598" alt="Image" src="https://github.com/user-attachments/assets/0a8e637b-1443-462b-b676-c9bda1102e5e" />
+<img width="1280" height="617" alt="Image" src="https://github.com/user-attachments/assets/42ee84e8-9a89-40f3-883c-f768508313c7" />
+
 ### 3\. Service Request Pipeline
 
+<img width="1280" height="594" alt="Image" src="https://github.com/user-attachments/assets/c379c1f9-8eae-456d-8119-62b1e3177d1d" />
+<img width="1281" height="623" alt="Image" src="https://github.com/user-attachments/assets/7b180942-4d88-4fd0-a9ed-6cfe77fd93c4" />
+<img width="1280" height="619" alt="Image" src="https://github.com/user-attachments/assets/8fb228b1-e23c-4f5b-bc19-2e498073ea4f" />
+<img width="1280" height="620" alt="Image" src="https://github.com/user-attachments/assets/857e1747-4277-46a1-9ae3-115c05453a11" />
+
 ### 4\. Team Provisioning (Command Center)
+
+<img width="1281" height="591" alt="Image" src="https://github.com/user-attachments/assets/9fa27aa7-57c1-4849-b55b-4f7d5a2c6618" />
 
 -----
 
 *Developed by Kunj Yadav.*
+
 # Kunj-Tech-Agency-management-portal
