@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a; /* Force dark text globally since the app uses light backgrounds */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* REMOVED the @media (prefers-color-scheme: dark) block here. 
+  Because your Tailwind classes are explicitly light-themed (bg-white, bg-slate-50),
+  allowing the system to turn text white makes the input text invisible!
+*/
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- Input Visibility & Anti-Blur Fixes --- */
+input,
+textarea,
+select {
+  /* 1. Force high-contrast dark text inside all inputs regardless of system theme */
+  color: #0f172a;
+
+  /* 2. Reset font smoothing so text doesn't look overly thin/faint */
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+
+  /* 3. Prevents iOS auto-zoom blur by enforcing a minimum 16px size on mobile */
+  font-size: 16px;
+}
+
+/* Reverts to your intended smaller design sizes on desktop screens */
+@media (min-width: 768px) {
+  input,
+  textarea,
+  select {
+    font-size: 14px;
+  }
+}
